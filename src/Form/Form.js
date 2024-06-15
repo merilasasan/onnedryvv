@@ -109,6 +109,7 @@ const Formm = ({ stop_propagate,hideModal })=>{
                             required
                             placeholder="Password" 
                             onChange={e=> setPwd(e.target.value)}
+                            autoFocus
                         />
                     </div>
 
